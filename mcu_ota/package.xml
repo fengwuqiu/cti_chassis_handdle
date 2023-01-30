@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+    <name>mcu_ota</name>
+    <version>20.0.0</version>
+    <description>TODO: Package description</description>
+    <maintainer email="neousys@todo.todo">neousys</maintainer>
+    <license>TODO: License declaration</license>
+
+<!--    <buildtool_depend>catkin</buildtool_depend>-->
+    <buildtool_depend>ament_cmake</buildtool_depend>
+
+    <depend>rclcpp</depend>
+    <depend>std_msgs</depend>
+    <depend>geometry_msgs</depend>
+    <depend>cti_msgs</depend>
+    <depend>ctilog</depend>
+<!--    <depend>cti_fpga_serial</depend>-->
+    <depend>cti_fpga_serial_msgs</depend>
+<!--    <build_depend>roscpp</build_depend>-->
+<!--    <build_depend>rospy</build_depend>-->
+<!--    <build_depend>std_msgs</build_depend>-->
+<!--    <build_depend>message_generation</build_depend>-->
+<!--    <build_depend>cti_fpga_serial</build_depend>-->
+<!--    <build_depend>ctilog</build_depend>-->
+
+<!--    <build_export_depend>roscpp</build_export_depend>-->
+<!--    <build_export_depend>rospy</build_export_depend>-->
+<!--    <build_export_depend>std_msgs</build_export_depend>-->
+<!--    <build_export_depend>cti_fpga_serial</build_export_depend>-->
+<!--    <build_export_depend>ctilog</build_export_depend>-->
+
+<!--    <exec_depend>roscpp</exec_depend>-->
+<!--    <exec_depend>rospy</exec_depend>-->
+<!--    <exec_depend>std_msgs</exec_depend>-->
+<!--    <exec_depend>cti_fpga_serial</exec_depend>-->
+<!--    <exec_depend>message_runtime</exec_depend>-->
+<!--    <exec_depend>ctilog</exec_depend>-->
+    <test_depend>ament_lint_auto</test_depend>
+    <test_depend>ament_lint_common</test_depend>
+    <export>
+        <build_type>ament_cmake</build_type>
+    <!-- Other tools can request additional information be placed here -->
+    </export>
+</package>
